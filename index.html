@@ -10,8 +10,8 @@
         <div class='position-absolute top-50 start-50 translate-middle'>
             <button id='button' class='btn btn-primary btn-lg' onclick='mulai()'> Coba tekan! </button>
             <div id='iloveyou' style='display: none;'>
-                <h2 class='text-center'>Makasih udah jadi bagian dari Tarhib P3RI 1442H.</h2>
-                <h2 class='text-center'>Maaf belum bisa jadi Kadiv dan Wakadiv yang baik dan sesuai ekspektasi. Semoga semua lelah dan keluh kesahnya selama ngasih nasehat dan arahan ke aku sama asya diganti dengan amal kebaikan oleh Allah SWT<br>&#10084;&#65039;</h2>
+                <h2 class='text-center'>SEMANGAT GAESS!!</h2>
+                <h2 class='text-center'>KITA BISAA!!<br>&#10084;&#65039;</h2>
             </div>
         </div>
         <span id='hati' class='fixed-bottom text-center my-3' onclick='hati()'></span>
@@ -32,11 +32,9 @@
                     confirmButtonText:'udaah',
 
                 });
-                if(nama=='Zahrah' || nama=='Dzaki' || nama =='Anisah' || nama =='Haifa' || nama =='Najwa' || nama =='Sekar'
-                || nama=='Tia' || nama=='Vina' || nama =='Salsa' || nama =='Syifa' || nama =='Ima' || nama =='Apriani' || nama == 'Dewi' 
-                || nama == 'Asa' || nama == 'Falih' || nama == 'Tata'){
+                if(nama== 'Sudais'){
 
-                    if(nama=='Zahrah' || nama=='Dzaki' || nama=='Asa' ||nama =='Anisah' || nama =='Haifa' || nama =='Najwa' || nama =='Sekar'){
+                    if(nama=='Sudais'){
                         await swals.fire({
                             title: `Assalamualaikum ${nama}!!!`,
                             text: `Aku mau nanya nih ke ${nama}`, 
@@ -73,17 +71,17 @@
 
                     });
                     
-                    var { isConfirmed: udaahh } = await swals.fire({
-                        title: `Selama ngasih tugas ke aku sama asya, ekspektasinya udah terpenuhin belum?`,
-                        confirmButtonText: 'udaahh',
-                        cancelButtonText: 'belumm',
+                    var { isConfirmed: kerenn} = await swals.fire({
+                        title: `Gimana dais, web gw keren ga?`,
+                        confirmButtonText: 'kerenn asli',
+                        cancelButtonText: 'kerenn parahh',
                         showCancelButton: true,
                     });
 
-                    if(udaahh){
+                    if(kerenn){
                         await swals.fire({
-                            title:'aaa alhamdulillah makasiiihh &#129319',
-                            text:'Semoga kita semua sama-sama bisa jadi lebih baik lagi yaa',
+                            title:'aaa alhamdulillah tengkiuuu &#129319',
+                            text:'Semoga Invree menang yaa, juara 1 pokoknya',
                             confirmButtonText:'aamiiin'
                         });
                         await swals.fire({
@@ -94,7 +92,7 @@
                             showCancelButton: true
                         });
                         await swals.fire({
-                            text:'Makasiih udah mau ngasih arahan buat aku sama asya, dari lubuk hati yang terdalam, aku dan asya minta maaf atas semua kesalahan dan rasa ngga suka yang dirasain. Semoga suatu saat nanti kita bisa ketemu lagi di banyak kegiatan baik lainnya',
+                            text:'Makasiiih udah mau kerja bareng buat bangun invree!',
                             confirmButtonText:'Siapp'
                         })
                         await swals.fire({
@@ -107,8 +105,8 @@
 
                     else {
                         await swals.fire({
-                            title:`aaa aku sama asya minta maaf bangett &#128549`,
-                            text: 'semoga aku sama asyaa bisa berubah jadi lebih baik lagi!',
+                            title:`aaa alhamdulillah tengkiuuu &#129319`,
+                            text: 'Semoga Invree menang yaa, juara 1 pokoknya',
                             confirmButtonText:'okee'
                         });
                         await swals.fire({
@@ -119,7 +117,7 @@
                             showCancelButton: true
                         });
                         await swals.fire({
-                            text:'Makasiih udah mau ngasih arahan buat aku sama asya, dari lubuk hati yang terdalam, aku dan asya minta maaf atas semua kesalahan dan rasa ngga suka yang dirasain. Semoga suatu saat nanti kita bisa ketemu lagi di banyak kegiatan baik lainnya',
+                            text:'Makasiiih udah mau kerja bareng buat bangun invree!',
                             confirmButtonText:'Siapp'
                         });
                         await swals.fire({
